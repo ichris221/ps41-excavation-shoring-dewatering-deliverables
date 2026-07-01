@@ -1,0 +1,13 @@
+constraint_id,stage_id,activity_or_constraint,required_window_or_limit,supplied_value,start_time,end_time,location,source_note,status_note
+TR-001,ALL,normal_work_hours,07:00 to 18:00 Monday-Friday,07:00 to 18:00 Monday-Friday,,,Brookside Road,matches WL-001,INFORMATIONAL
+TR-002,ALL,peak_period_lane_status,one lane open 07:00-09:00 and 16:00-18:00,one lane open,07:00/16:00,09:00/18:00,Brookside Road,matches WL-002,INFORMATIONAL
+TR-002-DUP,ALL,peak_period_lane_status,one lane open 07:00-09:00 and 16:00-18:00,one lane open,07:00/16:00,09:00/18:00,Brookside Road,duplicate of TR-002,DUPLICATE
+TR-003,STG-4,planned_full_road_closure,full road closure not permitted,full closure listed,2026-10-11 20:00,2026-10-12 05:00,Brookside Road at pump station,conflicts with WL-001 and WL-003,CONFLICT
+TR-004,ALL,emergency_access_clear_width,minimum 3.50 m clear,3.10 m,07:00,18:00,north lane staging area,conflicts with WL-005,CONFLICT
+TR-005,STG-1/STG-5,temporary_pedestrian_route_width,minimum 1.50 m clear,1.20 m,07:00,18:00,north sidewalk detour,conflicts with WL-007 and permit PC-005,CONFLICT
+TR-006,STG-3,driveway_access_interval,restore or bridge access at least once every 4.0 h,6.0 h closure interval,09:00,15:00,driveways 34-42 Brookside Road,conflicts with WL-006,CONFLICT
+TR-007,STG-1,school_bus_stop_status,maintain or approve detour for stop S-17,active stop S-17,07:30,08:15,station 5+055 north curb,detour record required,OPEN
+TR-008,STG-1,school_bus_detour_approval,approval required if stop S-17 affected,,,,station 5+055 north curb,approval field blank,OPEN
+TR-009,STG-4,concrete_delivery_lane_window,delivery within permitted work hours,2026-10-11 08:00 delivery,2026-10-11 08:00,2026-10-11 11:00,north lane staging area,Sunday delivery conflicts with WL-001,CONFLICT
+TR-010,STG-5,asphalt_single_lane_closure,closure duration to cover paving estimate,5.0 h allowed,09:00,14:00,Brookside Road,duration only; weather release not included,INFORMATIONAL
+TR-011,ALL,traffic_marshal_count,marshal count required during alternating flow,,,,Brookside Road,count field blank,OPEN

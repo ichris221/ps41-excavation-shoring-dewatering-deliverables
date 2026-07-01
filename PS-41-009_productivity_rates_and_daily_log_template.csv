@@ -1,0 +1,19 @@
+record_id,stage_id,activity_or_record,unit,quantity,normal_rate,rate_unit,working_day_hours,calculated_duration_hr,resource,predecessor,note
+PR-001,STG-1,traffic_and_pedestrian_setup,stage,1,1,stage/day,8,8.00,traffic crew,utility locate,One stage per day.
+PR-002,STG-2,sawcut_pavement,m,88,60,m/hr,8,1.47,sawcut crew,traffic setup,
+PR-003,STG-2,pavement_removal,m2,148,42,m2/hr,8,3.52,excavation crew,sawcut complete,
+PR-004,STG-2,sheet_pile_install,m,68,6,m/hr,8,11.33,sheet-pile crew,utility locate,Vibration monitoring required.
+PR-005,STG-3,first_brace_install,level,1,0.5,level/hr,8,2.00,shoring crew,sheet pile complete,Must occur before excavation exceeds 1.50 m.
+PR-006,STG-3,second_brace_install,level,1,0.5,level/hr,8,2.00,shoring crew,first brace accepted,Must occur before excavation exceeds 3.60 m.
+PR-007,STG-3,bulk_excavation,m3,285.70,18,m3/hr,8,15.87,excavation crew,dewatering operational,
+PR-007-DUP,STG-3,bulk_excavation,m3,285.70,18,m3/hr,8,15.87,excavation crew,dewatering operational,Duplicate export row.
+PR-008,STG-4,base_trim_and_blinding,m3,8.40,4,m3/hr,8,2.10,concrete crew,base formation accepted,
+PR-009,STG-4,base_slab_concrete,m3,38.40,8,m3/hr,8,4.80,concrete crew,pre-pour inspection,Continuous pour requirement applies.
+PR-010,STG-4,wet_well_section_set,section,5,1.5,sections/hr,8,3.33,crane crew,base slab cure release,
+PR-011,STG-4,annulus_grout,m3,12.50,5,m3/hr,8,2.50,grout crew,wet-well set accepted,
+PR-012,STG-5,backfill,m3,210,25,m3/hr,8,8.40,backfill crew,grout cure release,
+PR-013,STG-5,granular_base,m3,64,,m3/hr,8,,grading crew,backfill accepted,Rate field blank.
+PR-014,STG-5,asphalt_reinstatement,m2,135,35,m2/hr,8,3.86,paving crew,granular base and weather release,
+PR-015,STG-1,dewatering_setup,system,1,,system/hr,8,,pump crew,traffic setup,Setup rate field blank.
+PR-016,STG-5,traffic_control_removal,stage,1,1,stage/day,8,8.00,traffic crew,surface accepted,
+DLT-001,ALL,daily_log_template,text,,,,,,site superintendent,each work day,"Required fields: weather, groundwater readings, pump status, discharge turbidity, traffic status, visitors, labor, equipment, quantities, inspections, photos, incidents, open issues."

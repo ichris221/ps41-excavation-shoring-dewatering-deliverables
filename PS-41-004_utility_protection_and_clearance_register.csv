@@ -1,0 +1,9 @@
+utility_id,stage_id,station,utility_type,owner,position_from_centerline,elevation_or_depth,minimum_required_clearance_m,supplied_clearance_m,protection_requirement,approval_status,inspection_requirement,remarks
+U-001,STG-2,5+072,150 mm gas main,North Gas,1.30 m LT,top el. 100.82 m,0.60,0.44,hand exposure within 1.0 m; no mechanical excavation inside marked protection zone,owner approval required,utility locate and protection signoff,Supplied clearance is below minimum.
+U-002,STG-3,5+078,telecom duct bank,City Fiber,0.80 m RT,depth field blank,0.45,,support in place; maintain service,approval pending,protection plan signoff,Supplied clearance is blank.
+U-002-DUP,STG-3,5+078,telecom duct bank,City Fiber,0.80 m RT,depth field blank,0.45,,duplicate of U-002,approval pending,protection plan signoff,Duplicate export row.
+U-003,STG-4,5+084,100 mm water service,Water Utility,2.20 m RT,depth blank,0.45,,field locate before excavation,not requested,field-locate record,Depth not shown in source record.
+U-004,STG-4,5+088,11 kV electrical duct,GridCo,1.10 m LT,cover 0.92 m,0.50,0.62,protect in place; hand dig within 0.75 m,owner notified,cable avoidance signoff,Supplied clearance above minimum.
+U-005,STG-5,5+091,sanitary lateral,Municipal Sewer,3.10 m LT,invert el. 97.20 m,0.30,0.31,maintain service during backfill,owner notified,post-backfill service check,Supplied clearance marginally above minimum.
+U-006,STG-1,5+065,street-light conduit,Lighting Maintenance,north sidewalk,cover 0.28 m,0.30,0.28,protect in place beside temporary pedestrian route,not requested,visual protection check,Supplied cover is below listed minimum.
+U-007,STG-1,5+058,fiber pull box,,behind north curb,rim el. 102.41 m,0.20,0.22,avoid impact during traffic setup,owner blank,visual check,Utility owner field is blank.
